@@ -6,7 +6,6 @@ import {observationsJob}  from '../../assets/jopen.json';
 
 
  import { createChart ,SeriesDataItemTypeMap, PriceScaleMode, LineStyle, isBusinessDay} from 'lightweight-charts';
-import { getHtmlTagDefinition, HtmlTagDefinition } from '@angular/compiler';
 @Component({
   selector: 'app-chart',
   templateUrl: './chart.component.html',

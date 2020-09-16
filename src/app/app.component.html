@@ -5,7 +5,7 @@
   <div class="spacer"></div>
 
   
-  <button class="tablink" onclick="location.href = href='https://patrick-gourdet.github.io/demo-cinder/'" id="defaultOpen">Angular 9</button>
+  <button class="tablink" onclick="location.href = href='https://patrick-gourdet.github.io/angulardemo/'" id="defaultOpen">Angular 9</button>
   <button class="tablink" onclick="location.href = href='https://patrick-gourdet.github.io/webglwizard/'" id="defaultOpen">Web GL</button>
 
   
@@ -14,11 +14,13 @@
     <img style="color: rgb(34, 54, 51)      ;" width="40" alt="Paatrick Logo" src="./assets/icons8-linkedin.svg" />
   </a>
 </div>
+<div style="padding: 50px;"></div>
 
 <div class="content pad" style="margin-bottom: 10px;" role="main">
 
   <!-- Highlight Card -->
-  <div  style="background-color: rgb(135, 150, 135);" class=" give card highlight-card md-media-xl med">
+  <div  style="background-color: rgb(135, 150, 135);   
+  " class=" give card highlight-card md-media-xl med">
     <a href="https://fedigital.org"><img class="drop-shadow mobile" width=450 src="./assets/logo.svg" 
         alt="Iron Digital"></a>
       <div class="t1"><div id="l1">Iron</div> <div id="l2">Financials</div></div>
@@ -30,8 +32,9 @@
   <!-- Resources -->
   <h2>Thank you for taking the time to visit</h2>
   <p class="sub"style="  text-shadow: 2px 2px 4px #d8d8d8; ">Here are some links to help you get to know me</p>
-
-  <div class="card-container">
+  <div style="padding: 20px;"></div>
+  <div class="card-container" style="   table-layout: inherit;
+  ">
     <a class="card" style="border:solid 1px rgb(135, 150, 135); padding-left: 0;" target="_blank" rel="noopener"
       href="https://fedigital.org">
       <img style="padding-left: 0;" width="150" alt="Patrick Logo" src="./assets/logo.svg" />
@@ -58,18 +61,20 @@
         <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" /></svg>
     </a>
   </div>
-  <div class="material-icons" style="align-content: center; background-color: rgb(252, 252, 252); border-radius: 5%;">
+  <div class="material-icons" style="align-content: center; background-color: rgb(252, 252, 252);border-radius: 1%; padding-bottom: 20px;">
     <h1 style="text-shadow: 2px 2px 4px #b4b4b4; padding: 10px;">There are new Paths Waiting</h1>
     <p>The yellow below are the available positions in millions</p>
     <p>In green all the people we can help.</p><a href="https://www.bls.gov/"> [statitic from: US Buro of Labor]</a>
 
   </div>
+  <div style="padding: 20px;"></div>
 
   <!--
 
     CHART TAG For statistical graph
   -->
   <div class="container">
+
     <div class="row">
       <div class="col-12">
         <app-chart></app-chart>
